@@ -26,7 +26,7 @@ wallpepers and edit crontab to add this task.
 5. You can check your entry using `crontab -l`
 6. change-wallpaper.sh will be executed per hour. You can modify params to suit your needs.
 
-![Crontab entry] (./screenshots/crontab.png) 
+![Crontab entry](./screenshots/crontab.png) 
 
 #### Use notification to display quotes and emoji periodically
 I maintained a quote.txt file containing some quotes and used greeting.sh combined with crontab to periodically 
@@ -34,4 +34,4 @@ display quotes. Just add following entry in crontab file to display quote per ha
 
 `*/30 * * * * bash /home/varun/Desktop/scripts/greeting.sh`
 
-![Displaying quote] (./screenshots/notification.png)
+![Displaying quote](./screenshots/notification.png)
